@@ -8,7 +8,7 @@ long long squence(int n)
         return 1;
     }
     if(n%2==0){
-        return squence(n/2)+1;
+        return squence(n / 2) + 1;
     }
     else{
         return squence(3*n+1)+1;
